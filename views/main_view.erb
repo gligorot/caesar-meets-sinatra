@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <style>
+      body {
+        background: green;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <input type="text" name="text" placeholder="Text to encrypt">
+      <input type="text" name="factor" placeholder="Factor of encryption">
+      <input type="submit" name="Encrypt!">
+    </form>
+    <p>
+      Here is your encrypted text:
+
+      <p><%= encrypted_text %></p>
+    </p>
+  </body>
+</html>
